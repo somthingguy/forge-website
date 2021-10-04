@@ -1,0 +1,17 @@
+.nav-link {
+    color: #b21212 !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+}
+.nav-link:hover, .nav-link:focus {
+    color: #2e0101 !important;
+  }
+  .nav-link.active{
+      color: rgb(0, 0, 0) !important;
+  }
+.navbar-brand-img {
+    max-height: 5rem;
+    width: auto;
+  }
+
+
