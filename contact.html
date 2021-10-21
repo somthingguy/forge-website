@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
   </head>
+  
   <body>
+    
     <!-- Start of page -->
     <!-- NavBar -->
-    <div class="container pt-4">
+    <div id="nav-bar" class="container pt-4">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="index.html"
@@ -51,13 +53,82 @@
         </div>
       </nav>
     </div>
+    
     <!-- START CODING BELOW -->
-
+    
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
       integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!--Contact Us! Text on Left-->
+		<div  id="body-contact" class="row">
+      <div class="col-lg-6" id="text-contact">
+          <img src="images/contact-us.png" width="110%" alt="contact us">
+      </div>
+		
+    <!--Contact Form on Right-->
+		  <div class="col-lg-6" id="form-contact">
+				</br><hr></br></br>
+				<form name="payment" id="payment" action="processForm.php" method="post">
+				<fieldset>
+				<legend>Personal Information</legend>
+					<ol>
+						<li>
+							<label for="name">Name: </label>
+							<input id="name" name="name" type="text" placeholder="Enter your full name" required="required" autofocus="autofocus" onChange="updateProgress();"/>
+						</li>
+						<li>
+							<label for="email">Email: </label>
+							<input id="email" name="email" type="email" placeholder="example@domain.com" required="required" onChange="updateProgress();"/>
+						</li>
+						<li>
+							<label for="phone">Phone: </label>
+							<input id="phone" name="phone" type="tel" placeholder="Example: 765-555-1235" required="required" onChange="updateProgress();"/>
+						</li>
+						<li>
+							<label for="date">Date: </label>
+							<input id="date" name="date" type="date" required="required" onChange="updateProgress();"/>
+						</li>
+						<li>
+							<label for="address">Message: </label>
+							<textarea id="address" name="address" rows="5" required="required" onChange="updateProgress();"></textarea>
+						</li>
+					</ol>
+				</fieldset>
+				<fieldset>
+					<button type="submit">Submit</button>
+				</fieldset>
+				</form>
+				</br></br><hr></br>
+			</div>
+		</div>
+		
+    <!--Footer at Bottom of Page-->
+		<div class="row">
+			<div class="col-lg-12" id="footer">
+				</br><h3>M E M B E R S</h3></br>
+				<table>
+          <tr>
+            <th>Samantha Kovats</th>
+            <th>Erik Cederquist</th>
+            <th>Campbell Haradine</th>
+						<th>Justin Kittle</th>
+						<th>Shannon Aker</th>
+						<th>Diego Fajardo</th>
+          </tr>
+          <tr>
+            <td>skovats@purdue.edu</td>
+						<td>ecederqu@purdue.edu</td>
+						<td>charadin@purdue.edu</td>
+						<td>jkittle@purdue.edu</td>
+						<td>seaker@purdue.edu</td>
+						<td>dlezamaf@purdue.edu</td>
+          </tr>
+        </table></br>
+			</div>
+		</div>
   </body>
 </html>
