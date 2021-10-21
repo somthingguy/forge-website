@@ -17,3 +17,157 @@
     text-align: end;
     }
 
+/*Contact Us CSS:*/
+
+#navbar {
+  background: #ffffff;
+}
+
+#body-contact {
+	background: #517084;
+}
+
+hr {
+	color: white;
+	margin: auto;
+	height: 50%;
+}
+
+#text-contact {
+	margin: auto;
+}
+
+#footer {
+	background: #192e3d;
+	text-align: center;
+	padding: 1%;
+	color: white;
+  width: 100%;
+}
+
+#footer table {
+	margin: auto;
+	width: 100%;
+}
+
+#footer td {
+	padding-bottom: 2%;
+  border-left: solid 1px #ffffff;
+	border-right: solid 1px #ffffff;
+	color: #bdbbba;
+}
+
+#footer th {
+	padding-top: 2%;
+  border-left: solid 1px #ffffff;
+	border-right: solid 1px #ffffff;
+	color: #dd3a3a;
+}
+
+#footer th, td {
+	text-align: center;
+}
+
+#form-contact {
+  margin: auto;
+}
+
+form#payment {
+  background: #192e3d;
+	color: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+	margin: auto;
+  counter-reset: fieldsets;
+  padding: 20px;
+  width: auto;
+}
+
+form#payment ol {
+	padding-left: 0px;
+}
+
+form#payment fieldset {
+  border: none;
+  margin-bottom: 10px;
+}
+
+form#payment fieldset:last-of-type {
+  margin-bottom: 0px;
+}
+
+form#payment legend {
+  color: #dd3a3a;
+	text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 1px #b21212;
+}
+
+form#payment ol li {
+  background: #517084;
+  background: rgba(81, 112, 132, .3);
+  border-color: #e3ebc3;
+  border-color: rgba(255, 255, 255, .6);
+  border-style: solid;
+  border-width: 2px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  line-height: 30px;
+  list-style: none;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+}
+
+form#payment label {
+  font-size: 13px;
+  width: 50px;
+}
+
+form#payment input, form#payment textarea {
+  background: #ffffff;
+  border: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  font: italic 13px Cambria, "Hoefler Text", "Liveration Serif", Times, "Times New Roman", serif;
+  outline: none;
+  padding: 5px;
+  width: 85%5;
+  margin: auto;
+  padding-right: 5%;
+}
+
+form#payment input:not([type=submit]):focus, form#payment textarea:focus {
+  background: #eaeaea;
+}
+
+form#payment button {
+  background: #333b3f;
+  border: none;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  font: 18px Cambria, "Hoefler Text", "Liveration Serif", Times, "Times New Roman", serif;
+  letter-spacing: 1px;
+  margin: auto;
+  padding: 7px 25px;
+  text-shadow: 0 1px 1px #000000;
+  text-transform: uppercase;
+}
+
+form#payment button:hover {
+  background: #b21212;
+  cursor: pointer;
+}
+
+
