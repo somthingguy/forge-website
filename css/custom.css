@@ -2,6 +2,7 @@
     color: #b21212 !important;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.4rem;
+    padding-left: 2ch !important;
     }
     .nav-link:hover, .nav-link:focus {
     color: #2e0101 !important;
@@ -170,4 +171,27 @@ form#payment button:hover {
   cursor: pointer;
 }
 
+/* About CSS */
+#about-title {
+  color: #dd3a3a;
+  font-weight: bold;
+  text-shadow: 0 1px 1px #b21212;
+  text-align: center;
+}
+
+#about-major {
+  color: white;
+  text-align: center;
+}
+
+ul.skills {
+  list-style: circle;
+  color: rgb(204, 203, 203);
+  padding-left: 8ch;
+}
+
+#skill {
+  color: rgb(204, 203, 203);
+  padding-left: 5ch;
+}
 
