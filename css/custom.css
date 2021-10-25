@@ -1,7 +1,12 @@
+    #nav-bar {
+    margin: auto;
+    padding: 0% 5% 0%;
+    }
     .nav-link {
     color: #b21212 !important;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.4rem;
+    padding-left: 2ch !important;
     }
     .nav-link:hover, .nav-link:focus {
     color: #2e0101 !important;
@@ -25,12 +30,28 @@
 
 #body-contact {
 	background: #517084;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
-hr {
+.cont-text1 {
+  text-align: center;
+  font-size: 600%;
+  color: white;
+  text-shadow: 4px 4px #b21212;
+}
+
+.cont-text2 {
+  text-align: center;
+  font-size: 350%;
+  color: white;
+  text-shadow: 3px 3px #b21212;
+}
+
+.line {
 	color: white;
-	margin: auto;
-	height: 50%;
+  width: 85%;
+  margin: auto;
 }
 
 #text-contact {
@@ -39,15 +60,17 @@ hr {
 
 #footer {
 	background: #192e3d;
+  border-bottom: 5px solid black;
 	text-align: center;
-	padding: 1%;
-	color: white;
+	color: #dd3a3a;
+  overflow: auto;
   width: 100%;
 }
 
 #footer table {
 	margin: auto;
-	width: 100%;
+	width: 90%;
+  color: white;
 }
 
 #footer td {
@@ -55,17 +78,7 @@ hr {
   border-left: solid 1px #ffffff;
 	border-right: solid 1px #ffffff;
 	color: #bdbbba;
-}
-
-#footer th {
-	padding-top: 2%;
-  border-left: solid 1px #ffffff;
-	border-right: solid 1px #ffffff;
-	color: #dd3a3a;
-}
-
-#footer th, td {
-	text-align: center;
+  text-align: center;
 }
 
 #form-contact {
@@ -82,7 +95,7 @@ form#payment {
 	margin: auto;
   counter-reset: fieldsets;
   padding: 20px;
-  width: auto;
+  width: 85%;
 }
 
 form#payment ol {
@@ -139,9 +152,9 @@ form#payment input, form#payment textarea {
   font: italic 13px Cambria, "Hoefler Text", "Liveration Serif", Times, "Times New Roman", serif;
   outline: none;
   padding: 5px;
-  width: 85%5;
+  width: 90%;
   margin: auto;
-  padding-right: 5%;
+  margin-left: 1%;
 }
 
 form#payment input:not([type=submit]):focus, form#payment textarea:focus {
@@ -170,4 +183,27 @@ form#payment button:hover {
   cursor: pointer;
 }
 
+/* About CSS */
+#about-title {
+  color: #dd3a3a;
+  font-weight: bold;
+  text-shadow: 0 1px 1px #b21212;
+  text-align: center;
+}
+
+#about-major {
+  color: white;
+  text-align: center;
+}
+
+ul.skills {
+  list-style: circle;
+  color: rgb(204, 203, 203);
+  padding-left: 8ch;
+}
+
+#skill {
+  color: rgb(204, 203, 203);
+  padding-left: 5ch;
+}
 
