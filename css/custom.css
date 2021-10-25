@@ -183,7 +183,7 @@ form#payment button:hover {
   cursor: pointer;
 }
 
-/* About CSS */
+/* Meet the Team CSS */
 #about-title {
   color: #dd3a3a;
   font-weight: bold;
@@ -207,3 +207,24 @@ ul.skills {
   padding-left: 5ch;
 }
 
+.logo-main {
+  width: auto;
+}
+
+.goal {
+  color: #dd3a3a;
+	text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 25px;
+  text-shadow: 0 1px 1px #b21212;
+}
+
+.goal-sub{
+  color: white;
+	text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 0px;
+  text-shadow: 0 1px 1px #b21212;
+}
