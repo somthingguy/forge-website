@@ -22,6 +22,44 @@
     text-align: end;
     }
 
+/*Index CSS:*/
+
+.logo-main {
+  width: auto;
+}
+
+.goal-body {
+  border-right: 5px solid #7c93a2;
+  border-left: 5px solid #7c93a2;
+  margin: 0% 5% 0%;
+  padding: 2% 2% 0%;
+}
+
+.goal {
+  color: #dd3a3a;
+	text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 25px;
+  text-shadow: 0 1px 1px #b21212;
+}
+
+.goal-sub {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.forge-ahead {
+  color: #b21212;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0 2px 5px white;
+  padding-bottom: 2%;
+}
+
 /*Contact Us CSS:*/
 
 #navbar {
@@ -183,27 +221,53 @@ form#payment button:hover {
   cursor: pointer;
 }
 
-/* About CSS */
-#about-title {
+/* Meet the Team CSS */
+.name {
   color: #dd3a3a;
   font-weight: bold;
-  text-shadow: 0 1px 1px #b21212;
-  text-align: center;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: white;
 }
 
-#about-major {
+.line-about {
   color: white;
+  width: 85%;
+  margin: auto;
+}
+
+#about {
   text-align: center;
+  padding: 1% 2% 1%;
 }
 
-ul.skills {
-  list-style: circle;
-  color: rgb(204, 203, 203);
-  padding-left: 8ch;
+#about-specific {
+  border-left: 5px solid #7c93a2;
+  border-right: 5px solid #7c93a2;
+  padding: 1%;
+  margin: 1% 0% 1%;
 }
 
-#skill {
-  color: rgb(204, 203, 203);
-  padding-left: 5ch;
+.major {
+  color: white;
+  font-size: 125%;
 }
 
+.major2 {
+  color: white;
+  font-size: 125%;
+  margin-bottom: 0%;
+}
+
+.minor {
+  color: #b8b8b8;
+  font-size: 115%;
+}
+
+ul {
+  color: #192e3d;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
